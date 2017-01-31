@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--该文件的功能:NavigationView的菜单栏布局文件-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--checkableBehavior:指定为single表示所有菜单只能单选
+        group表示一个组-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/backup"
+            android:icon="@drawable/ic_backup_grey_600_24dp"
+            android:title="backup">
+        </item>
+        <item
+            android:id="@+id/delete"
+            android:icon="@drawable/ic_delete_grey_600_24dp"
+            android:title="delete">
+        </item>
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_grey_600_24dp"
+            android:title="settings">
+        </item>
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_white_24dp"
+            android:title="home">
+        </item>
+    </group>
+
+</menu>
